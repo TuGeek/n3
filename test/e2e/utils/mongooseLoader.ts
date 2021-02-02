@@ -2,7 +2,7 @@ import { MicroframeworkLoader, MicroframeworkSettings } from 'microframework-w3t
 
 import { createDatabaseConnection } from '../../utils/database';
 
-export const typeormLoader: MicroframeworkLoader = async (settings: MicroframeworkSettings | undefined) => {
+export const mongooseLoader: MicroframeworkLoader = async (settings: MicroframeworkSettings | undefined) => {
 
     const connection = await createDatabaseConnection();
     if (settings) {

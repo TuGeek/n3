@@ -38,6 +38,7 @@
     }
   ],
   "dependencies": {
+    "@typegoose/typegoose": "^7.4.8",
     "bcrypt": "5.0.0",
     "chalk": "^2.4.2",
     "class-validator": "^0.9.1",
@@ -61,6 +62,7 @@
     "jsonfile": "5.0.0",
     "microframework-w3tec": "^0.6.3",
     "mongoose": "5.11.14",
+    "mongoose-seeder": "^1.2.1",
     "mongoose-unique-validator": "2.0.3",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
@@ -78,9 +80,6 @@
     "tslint": "^5.20.1",
     "type-graphql": "^0.15.0",
     "typedi": "0.8.0",
-    "typeorm": "^0.2.5",
-    "typeorm-seeding": "^1.0.0-beta.6",
-    "typeorm-typedi-extensions": "^0.2.1",
     "typescript": "^3.9.7",
     "uuid": "^3.4.0",
     "winston": "3.1.0"
@@ -115,6 +114,9 @@
     "@types/figlet": "^1.2.1",
     "@types/helmet": "0.0.41",
     "@types/jest": "23.3.2",
+    "@types/mongodb": "^3.1.31",
+    "@types/mongoose": "^5.10.3",
+    "@types/mongoose-seeder": "^1.2.5",
     "@types/morgan": "^1.9.2",
     "@types/nock": "^9.3.1",
     "@types/node": "^12.19.15",
@@ -123,8 +125,6 @@
     "@types/supertest": "^2.0.10",
     "@types/uuid": "^3.4.9",
     "@types/winston": "^2.3.7",
-    "@types/mongoose": "^5.5.43",
-    "@types/mongodb": "^3.1.31",
     "cross-env": "^5.2.1",
     "jest": "^26.6.3",
     "mock-express-request": "^0.2.0",
@@ -132,7 +132,6 @@
     "mongodb-memory-server": "^6.9.3",
     "ncp": "^2.0.0",
     "nock": "10.0.0",
-    "sqlite3": "^5.0.1",
     "ts-jest": "23.10.1"
   }
 }
